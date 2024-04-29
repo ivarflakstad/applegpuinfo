@@ -34,8 +34,8 @@ let package = Package(
         dependencies: [
           .product(
             name: "DeviceKit",
-            package: "DeviceKit",
-            condition: .when(platforms: [.iOS])),
+            package: "DeviceKit"
+	  )
         ]),
     .executableTarget(
         name: "AppleGPUInfoTool",
